@@ -1,0 +1,537 @@
+@import "colores";
+$letra-grande: 800;
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+
+
+#promocion {
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    font-family:'PT Sans Narrow', sans-serif;
+    margin-bottom: 2%;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+}
+
+
+nav ul {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    list-style-type: none;
+    margin-top: 2%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align:center;
+    text-decoration: none;
+    background-color: white;
+    
+    li a {
+    text-decoration: none;
+    color: black;
+    font-family:'PT Sans Narrow', sans-serif;
+    font-weight: $letra-grande*0.90;}
+
+}
+
+nav ul li a:hover, a:active {
+    text-decoration: underline;
+}
+
+
+#bienvenida {
+    background-color: rgb(255, 255, 255);
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 90%;
+    font-weight: $letra-grande;
+    font-family:'PT Sans Narrow', sans-serif;
+    font-size: 100%;
+    letter-spacing:2px;
+    
+    p {
+    font-weight: $letra-grande/2;
+    letter-spacing:normal;
+    text-transform: lowercase;
+    color: rgb(99, 97, 97);
+}
+}
+
+
+h1 {text-align: center;
+    font-weight: bold;
+    font-family:'PT Sans Narrow', sans-serif;
+   }
+
+.h1Paginas
+{  margin-left: auto;
+    margin-right: auto;
+    font-weight: $letra-grande;
+    font-family:'PT Sans Narrow', sans-serif;
+    font-size: 200%;
+    letter-spacing:2px}
+
+
+.textos
+{text-align: center;
+    font-family:'PT Sans Narrow', sans-serif;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {text-align: center;
+    font-weight: bold;
+    font-weight: $letra-grande*0.90;
+    font-family:'PT Sans Narrow', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.boton {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    width: 35%;
+    padding:5px 10px;
+    text-align: center;
+    font-weight: bold;
+    background-color: $color-primario;
+    font-family:'PT Sans Narrow', sans-serif;
+    
+    a{
+        text-decoration: none;
+        color: black;}
+
+}
+
+
+.fotos-portada{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 95%;
+}
+
+.fotos-portada-grid{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 95%;
+}
+
+.slider-fondo {
+    background-color: $color-primario;
+    display:block;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    width: 95%;
+    font-family:'PT Sans Narrow', sans-serif;
+    line-height: 1.6;
+    padding-top: 2%;
+    padding-bottom:2%;
+}
+
+.slider-fondo-testimonios {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    width: 100%;
+    font-family:'PT Sans Narrow', sans-serif;
+    line-height: 1.6;
+    width: 95%;
+    height: 95%;
+    padding-top: 2%;
+    padding-bottom:2%;
+}
+
+h3 {text-align: center;
+    font-weight: bold;
+    font-family:'PT Sans Narrow', sans-serif;
+    padding-bottom: 1%;
+
+    
+}
+
+.slider-lista
+    {display:block;
+    list-style: none;
+    text-align: center;
+    font-family:'PT Sans Narrow', sans-serif;
+    line-height: 1.6;;
+}
+
+#carouselExampleCaptions
+{ width: 80%;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 2%;}
+
+.indexTalleres{
+    width: 95%;
+    margin: auto;
+    display: block
+    
+
+}
+
+.presentacionTalleres
+{ display: block;
+}
+
+.indexSalon {
+        width: 95%;
+        margin: auto;
+        display: block;
+        
+    
+    }
+
+#newsletter
+{
+    background-color: $color-secundario;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    text-align: center;
+    font-family:'PT Sans Narrow', sans-serif;
+    font-weight: $letra-grande/2;
+    
+}
+
+.form-input-newsletter
+    {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    font-family:'PT Sans Narrow', sans-serif;
+    font-weight: $letra-grande*0.75;
+    font-size: 100%;
+    padding: 0.5%;
+}
+
+section#contactanos
+{display: block;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+h3#contactanos {
+    margin-bottom: 2%;
+
+}
+
+section#contactanos label
+{font-family:'PT Sans Narrow', sans-serif;
+    font-weight: $letra-grande*0.6;
+flex-basis: 100px;}
+
+.filaFormulario {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+::placeholder {
+    font-family:'PT Sans Narrow', sans-serif
+}
+
+.botonFormulario{
+    font-family:'PT Sans Narrow', sans-serif;
+    padding: 1%;
+    margin: 0% 1% 0% 0%;
+}
+
+footer
+{background-color: black;
+margin-left: auto;
+margin-right: auto;
+padding-top: 1%;
+display:flex;
+flex-direction: row;
+justify-content: center;
+text-align:center;
+   p
+   {
+    list-style-type: none;
+    color: blanchedalmond;
+    font-family: 'PT Sans Narrow', sans-serif;
+    
+      a
+      {text-decoration: none;
+      color: blanchedalmond;}
+}
+}
+
+img.iconos
+{
+    width: 6%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+}
+
+
+.footerRedes {
+    flex-shrink: 3;
+}
+
+#menu-de-servicios
+{
+    background-color: rgb(235, 198, 252);
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+thead {
+    background-color: black;
+    color: blanchedalmond;
+    text-align:center;
+}
+
+#video{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menuSalon
+{   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    h4 {
+    font-weight: bold;
+    font-weight: $letra-grande*0.9;
+    font-family:'PT Sans Narrow', sans-serif;
+    text-transform: uppercase
+}
+}
+
+#descripcion
+{
+    font-weight: $letra-grande/2;
+    font-family:'PT Sans Narrow', sans-serif;
+    text-transform: uppercase;
+   color: rgb(99, 97, 97);
+}
+
+#precio
+{
+    font-weight: $letra-grande/2;
+    font-family:'PT Sans Narrow', sans-serif;
+    text-transform: lowecase;
+    font-size: 90%;
+}
+
+#eventos
+{   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+
+}
+
+#boxTalleres
+{   width: 60%;
+    background-color: $color-primario;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#fotoTaller {
+    width: 30%;
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+
+.contenidoPortfolio {
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    width: 90%;
+    grid-gap: 1%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.25fr 6fr 0.25fr;
+}
+
+.tituloPortfolio {
+    grid-area: 1/1/2/4;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 150%;
+    text-align: center;
+    padding: 1%;
+    background-color: black;
+    color: white;
+
+}
+
+.galeriaPortfolio {
+    grid-area: 2/1/3/4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.fotoPortfolio {
+    text-align: center;
+    width: 30%;
+    padding: 0.5%;
+}
+
+.fotoPortfolio:hover {
+    transform: scale(1.5 ,1.5);
+}
+
+.contactoPortfolio {
+    grid-column: 1/4;
+    padding: 1%;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    background-color: $color-primario;
+    color: white;
+    a {
+    text-decoration: none;
+    color: black;
+}
+}
+
+.espacio
+{
+    margin-bottom: 2%;
+}
+
+.boton-rosa
+{background-color: $color-primario;
+color: black;
+border: none;}
+
+@media screen and (min-width: 1024px) {
+
+#bienvenida {
+        background-color: rgb(255, 255, 255);
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        width: 90%;
+        font-weight: $letra-grande;
+        font-family:'PT Sans Narrow', sans-serif;
+        font-size: 200%;
+        letter-spacing:2px;
+    
+    }
+
+.fotos-portada-grid{
+    margin-right: auto;
+    width: 95%;
+    height: 95%;
+}
+
+
+.indexTalleres{
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;  
+
+}
+
+.presentacionTalleres
+{ display: flex;
+flex-direction: column;
+}
+
+.indexSalon {
+        width: 95%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 2%;
+        align-items: center;
+        
+    
+    }
+
+.boton {
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        width: 20%;
+        padding:5px 10px;
+        text-align: center;
+        font-weight: bold;
+        background-color: $color-primario;
+        font-family:'PT Sans Narrow', sans-serif;
+    }
+
+    
+.slider-fondo-testimonios {
+    background-color: $color-secundario;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    width: 100%;
+    font-family:'PT Sans Narrow', sans-serif;
+    line-height: 1.6;
+    width: 95%;
+    height: 95%;
+    padding-top: 2%;
+    padding-bottom:2%;
+}
+
+#carouselTalleres {
+    width: 95%;
+    margin: auto;
+    display: inline-flex;
+    margin-bottom: 2%;
+    align-items: center;
+}
+}
+
+
